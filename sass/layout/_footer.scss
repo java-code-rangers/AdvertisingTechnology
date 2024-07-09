@@ -1,0 +1,130 @@
+.footer-content {
+    background-color: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.footer-tablet {
+    @include tablet {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+}
+
+
+.address {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.address__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+    transition: background-color var(--timing-duration);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: var(--accent-color);
+    }
+}
+
+.address__map {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    transition: color var(--timing-duration);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: var(--accent-color);
+    }
+}
+
+
+.address__item:not(:last-child) {
+    margin-bottom: 8px;
+
+    @include desktop {
+        margin-bottom: 9px;
+    }
+}
+
+.footer-social__title {
+    display: block;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--header-color);
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-cont {
+    text-align: center;
+    @include desktop {
+        display: flex;
+        align-items: baseline; 
+        text-align: left;
+    }
+}
+
+.footer-social {
+    text-align: center;
+    margin: 0;
+
+    @include desktop {
+        margin-left: 70px;
+        }
+}
+
+.footer-social__list {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-social__link {
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: background-color var(--timing-duration);
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: var(--accent-color);
+    }
+}
+
+.footer-social__icon {
+    fill: #FFFFFF;
+}
+
+.footer-social__item+.footer-social__item {
+    margin-left: 10px;
+}
+
+
+

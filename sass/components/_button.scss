@@ -1,0 +1,43 @@
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: transparent;
+  border-radius: 4px;
+  padding: 6px 22px;
+
+  transition: background-color var(--timing-duration), color var(--timing-duration),
+    box-shadow var(--timing-duration);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--accent-color-orange);
+    color: var(--header-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+}
+
+.button__blue {
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: var(--header-color);
+  background-color: var(--accent-color-orange);
+  cursor: pointer;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #1a8feb;
+    color: var(--header-color);
+  }
+}

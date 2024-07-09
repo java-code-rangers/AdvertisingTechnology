@@ -1,0 +1,40 @@
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @include desktop {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+}
+
+.section--no-padding-top {
+    padding-top: 0;
+
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.section--other-background {
+    background-color: #f5f4fa;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--main-title-color);
+    text-align: center;
+    margin-bottom: 30px;
+
+    @include desktop {
+        margin-bottom: 50px;
+
+        font-size: 36px;
+        line-height: 1.17;
+    }
+}
+
+
