@@ -115,27 +115,20 @@
                         <button class="button filter-btn" data-filter="all" type="button">Все</button>
                     </li>
                     <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="websites" type="button">
-                            Веб-сайты
+                        <button class="button filter-btn" data-filter="outside" type="button">
+                            Наружная реклама
                         </button>
                     </li>
                     <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="applications" type="button">
-                            Приложения
+                        <button class="button filter-btn" data-filter="interior" type="button">
+                            Интерьерная реклама
                         </button>
                     </li>
-                    <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="design" type="button">Дизайн</button>
-                    </li>
-                    <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="marketing" type="button">
-                            Маркетинг
-                        </button>
-                    </li>
+
                 </ul>
 
                 <ul class="card-list">
-                    <li class="card-list__item" data-category="websites">
+                    <!-- <li class="card-list__item" data-category="websites">
                         <a href="" class="card-list__link">
                             <div class="card-list__overlay">
                                 <picture>
@@ -164,230 +157,75 @@
                                 <p class="card-box__text">Веб-сайт</p>
                             </div>
                         </a>
+                    </li> -->
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/1.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="design">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project2@1x.jpg 1x, ./images/desktop/project2@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project2@1x.jpg 1x, ./images/tablet/project2@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project2@1x.jpg 1x, ./images/mobile/project2@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Постер New Orlean vs Golden Star</h2>
-                                <p class="card-box__text">Дизайн</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/2.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="applications">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project3@1x.jpg 1x, ./images/desktop/project3@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project3@1x.jpg 1x, ./images/tablet/project3@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project3@1x.jpg 1x, ./images/mobile/project3@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project3.jpg" alt="Ресторан Seafood" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Ресторан Seafood</h2>
-                                <p class="card-box__text">Приложение</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/3.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="marketing">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project4@1x.jpg 1x, ./images/desktop/project4@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project4@1x.jpg 1x, ./images/tablet/project4@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project4@1x.jpg 1x, ./images/mobile/project4@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project4.jpg" alt="Проект Prime" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Проект Prime</h2>
-                                <p class="card-box__text">Маркетинг</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/4.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="applications">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project5@1x.jpg 1x, ./images/desktop/project5@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project5@1x.jpg 1x, ./images/tablet/project5@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project5@1x.jpg 1x, ./images/mobile/project5@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project5.jpg" alt="Проект Boxes" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Проект Boxes</h2>
-                                <p class="card-box__text">Приложение</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/5.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="websites">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project6@1x.jpg 1x, ./images/desktop/project6@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project6@1x.jpg 1x, ./images/tablet/project6@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project6@1x.jpg 1x, ./images/mobile/project6@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project6.jpg" alt="Inspiration has no Borders" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Inspiration has no Borders</h2>
-                                <p class="card-box__text">Веб-сайт</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/6.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="design">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project7@1x.jpg 1x, ./images/desktop/project7@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project7@1x.jpg 1x, ./images/tablet/project7@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project7@1x.jpg 1x, ./images/mobile/project7@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project7.jpg" alt="Издание Limited Edition" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Издание Limited Edition</h2>
-                                <p class="card-box__text">Дизайн</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/7.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="marketing">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project8@1x.jpg 1x, ./images/desktop/project8@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project8@1x.jpg 1x, ./images/tablet/project8@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project8@1x.jpg 1x, ./images/mobile/project8@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project8.jpg" alt="Проект LAB" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Проект LAB</h2>
-                                <p class="card-box__text">Маркетинг</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/8.jpg" alt="" width="370">
                     </li>
-                    <li class="card-list__item" data-category="applications">
-                        <a href="" class="card-list__link">
-                            <div class="card-list__overlay">
-                                <picture>
-                                    <source
-                                        srcset="./images/desktop/project9@1x.jpg 1x, ./images/desktop/project9@2x.jpg 2x"
-                                        media="(min-width: 1200px)" />
-                                    <source
-                                        srcset="./images/tablet/project9@1x.jpg 1x, ./images/tablet/project9@2x.jpg 2x"
-                                        media="(min-width: 768px)" />
-                                    <source
-                                        srcset="./images/mobile/project9@1x.jpg 1x, ./images/mobile/project9@2x.jpg 2x"
-                                        media="(max-width: 767px)" />
-                                    <img src="./images/project9.jpg" alt="Growing Business" width="370">
-                                </picture>
-
-                                <p class="card-box__text-overlay">
-                                    Ресурс предлагает комплексные предложения с разным уровнем
-                                    функционала и сервисов. Все это позволит посетителю получить
-                                    исчерпывающие сведения о компании или частном лице.
-                                </p>
-                            </div>
-                            <div class="card-box">
-                                <h2 class="card-box__title">Growing Business</h2>
-                                <p class="card-box__text">Приложение</p>
-                            </div>
-                        </a>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/9.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/10.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/11.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/12.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/13.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/14.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/15.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/16.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="interior">
+                        <img src="./images/portfolio_comp/17.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/18.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/19.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/20.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/21.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/22.jpg" alt="" width="370">
+                    </li>
+                    <li class="card-list__item zoom" data-category="outside">
+                        <img src="./images/portfolio_comp/23.jpg" alt="" width="370">
                     </li>
                 </ul>
             </div>

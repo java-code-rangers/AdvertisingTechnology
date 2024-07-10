@@ -36,3 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+document.querySelectorAll('.zoom').forEach(img => {
+  img.addEventListener('click', function () {
+    this.classList.toggle('zoomed');
+  });
+});
