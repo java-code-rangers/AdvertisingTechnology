@@ -32,7 +32,7 @@
   &:hover,
   &:focus,
   &:active {
-    color: var(--accent-color);
+    color: var(--accent-color-orange);
   }
 }
 
@@ -98,6 +98,7 @@
 
   @include desktop {
     margin-left: 50px;
+    width: max-content;
   }
 }
 
