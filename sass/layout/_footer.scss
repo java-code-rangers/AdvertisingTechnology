@@ -135,3 +135,9 @@
 .no-wrap {
   white-space: nowrap;
 }
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  color: var(--main-text-color);
+  padding: 10px;
+}

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.css" />
     <!-- <link rel="stylesheet" href="./css/styles.css"> -->
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
@@ -43,7 +45,7 @@
                             <a href="./index.html" class="mob-menu__link">Студия </a>
                         </li>
                         <li class="mob-menu__item">
-                            <a href="./portfolio.html" class="mob-menu__link navigation__link--active">Портфолио </a>
+                            <a href="./portfolio.html" class="mob-menu__link ">Портфолио </a>
                         </li>
 
                     </ul>
@@ -81,9 +83,9 @@
                 <ul class="navigation">
                     <li class="navigation__item"><a href="./index.html" class="navigation__link">О
                             компании</a></li>
-                    <li class="navigation__item"><a href="./portfolio.html"
-                            class="navigation__link navigation__link--active">Портфолио</a></li>
-                    <li class="navigation__item"><a href="./portfolio2.html" class="navigation__link">Портфолио2</a>
+                    <!-- <li class="navigation__item"><a href="./portfolio.html" class="navigation__link">Портфолио</a></li> -->
+                    <li class="navigation__item"><a href="./portfolio2.html"
+                            class="navigation__link navigation__link--active">Портфолио</a>
                     </li>
                     <li class="navigation__item"><a href="#contacts" class="navigation__link">Контакты</a></li>
                 </ul>
@@ -109,98 +111,15 @@
     </header>
     <main>
         <!--Filters-->
+
         <section class="section">
-            <div class="conteiner">
-                <h1 class="visually-hidden">Виды наших работ</h1>
-                <ul class="filters-list">
-                    <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="all" type="button">Все</button>
-                    </li>
-                    <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="outside" type="button">
-                            Наружная реклама
-                        </button>
-                    </li>
-                    <li class="filters-list-item">
-                        <button class="button filter-btn" data-filter="interior" type="button">
-                            Интерьерная реклама
-                        </button>
-                    </li>
 
-                </ul>
 
-                <ul class="card-list">
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/1.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/2.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/3.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/4.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/5.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/6.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/7.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/8.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/9.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/10.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/11.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/12.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/13.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/14.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/15.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/16.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="interior">
-                        <img src="./images/portfolio_comp/17.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/18.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/19.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/20.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/21.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/22.jpg" alt="" width="370">
-                    </li>
-                    <li class="card-list__item zoom" data-category="outside">
-                        <img src="./images/portfolio_comp/23.jpg" alt="" width="370">
-                    </li>
-                </ul>
-            </div>
+            <!-- Add gallery items to this list -->
+            <!-- <ul class="gallery"></ul> -->
+            <ul class="gallery"></ul>
+
+
         </section>
     </main>
     <footer class="footer-content" id="contacts">
@@ -240,9 +159,17 @@
                     </li>
                 </ul>
             </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&#169; 2014-2024 ТехнологияРекламы</p>
+            <p>Created by JavaRangers</p>
         </div>
     </footer>
     <script src="./js/menu.js"></script>
+    <script src="./js/02-lightbox.js" type="module"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js">
+    </script>
 </body>
 
 </html>
