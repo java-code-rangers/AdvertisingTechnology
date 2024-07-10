@@ -85,8 +85,8 @@ export const galleryItems = [
     description: 'Ваш комментарий здесь',
   },
   {
-    preview: '../images/portfolio_comp/18.jpg',
-    original: '../images/portfolio/18.jpg',
+    preview: './images/portfolio_comp/18.jpg',
+    original: './images/portfolio/18.jpg',
     description: 'Ваш комментарий здесь',
   },
   {
