@@ -13,11 +13,11 @@
   }
 }
 
-.address {
+.info {
   margin-top: 20px;
   margin-bottom: 60px;
 }
-.address__link {
+.info {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -63,6 +63,12 @@
   }
 }
 
+.footer-info2 {
+  @include desktop {
+    margin-left: 50px;
+  }
+}
+
 .footer-social__title {
   display: block;
 
@@ -85,13 +91,13 @@
   }
 }
 
-.footer-social {
+.footer-info {
   //   text-align: center;
   margin: 0;
   color: #ffffff;
 
   @include desktop {
-    margin-left: 70px;
+    margin-left: 50px;
   }
 }
 
@@ -123,4 +129,8 @@
 
 .footer-social__item + .footer-social__item {
   margin-left: 10px;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
