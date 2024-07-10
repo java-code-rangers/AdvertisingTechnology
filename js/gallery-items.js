@@ -1,7 +1,7 @@
 export const galleryItems = [
   {
-    preview: 'images/portfolio_comp/1.jpg',
-    original: 'images/portfolio/1.jpg',
+    preview: './images/portfolio_comp/1.jpg',
+    original: './images/portfolio/1.jpg',
     description: 'Ваш комментарий здесь',
   },
   {
