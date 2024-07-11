@@ -29,3 +29,27 @@
 .activities__item {
   position: relative;
 }
+.about-us__list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  // list-style: circle;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+.about-us__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.about-us {
+  margin-top: 20px;
+}
+.about-us__text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}

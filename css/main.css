@@ -844,6 +844,33 @@ a {
   position: relative;
 }
 
+.about-us__list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.about-us__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.about-us {
+  margin-top: 20px;
+}
+
+.about-us__text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
 @media screen and (min-width: 768px) {
   .team {
     display: flex;
@@ -1284,6 +1311,14 @@ a {
   justify-content: space-around;
   color: var(--main-text-color);
   padding: 10px;
+}
+
+.team-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+.team-link:hover, .team-link:focus, .team-link:active {
+  color: var(--accent-color-orange);
 }
 
 @media screen and (min-width: 481px) and (max-width: 1199px) {
