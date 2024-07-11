@@ -101,7 +101,7 @@ export const galleryItems = [
   },
   {
     preview: './images/portfolio_comp/21.jpg',
-    original: './images/portfolio/21.1.jpg.jpg',
+    original: './images/portfolio/21.1.jpg',
     description: 'Ваш комментарий здесь',
   },
   {
