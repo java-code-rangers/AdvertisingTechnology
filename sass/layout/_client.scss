@@ -1,47 +1,83 @@
 .client-list {
-        display: flex;
-        flex-wrap: wrap;
-        margin: -15px;
-        align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  align-content: space-between;
 }
 
 .client-list__item {
-    height: 92px;
-    margin: 15px;
-    flex-basis: calc((100% - 60px)/2);
+  height: 92px;
+  margin: 15px;
+  flex-basis: calc((100% - 60px) / 2);
 
-    @include tablet {
-        flex-basis: calc((100% - 90px)/3);
-    }
+  @include tablet {
+    flex-basis: calc((100% - 90px) / 3);
+  }
 
-    @include desktop {
-        flex-basis: calc((100% - 180px)/6);
-    }
+  @include desktop {
+    flex-basis: calc((100% - 180px) / 6);
+  }
 }
 
 .client-list__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 100%;
-    height: 100%;
-    
-    color: #AFB1B8;
-    border: 1px solid #AFB1B8;
-    box-sizing: border-box;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: color var(--timing-duration), border-color var(--timing-duration);
+  width: 100%;
+  height: 100%;
 
-    &:hover,
-    &:focus,
-    &:active {
-            color: var(--accent-color);
-            border-color: var(--accent-color);
-    }
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color var(--timing-duration), border-color var(--timing-duration);
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .client-list__icon {
-    fill: currentColor;
+  fill: currentColor;
+}
+
+// swiper
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 35px;
+}
+
+.swiper-slide .swiper-slide-next {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide__img {
+  display: block;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  height: 5px;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--accent-color-orange);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  z-index: 5;
+  color: var(--accent-color-orange);
 }
