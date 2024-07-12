@@ -114,4 +114,19 @@ export const galleryItems = [
     original: './images/portfolio/23.1.jpg',
     description: 'Ваш комментарий здесь',
   },
+  // {
+  //   preview: './images/portfolio_comp/1-1.jpeg',
+  //   original: './images/portfolio/1-1.jpeg',
+  //   description: 'Ваш комментарий здесь',
+  // },
+  {
+    preview: './images/portfolio_comp/2-1.jpeg',
+    original: './images/portfolio/2-1.jpeg',
+    description: 'Ваш комментарий здесь',
+  },
+  {
+    preview: './images/portfolio_comp/3-1.jpeg',
+    original: './images/portfolio/3-1.jpeg',
+    description: 'Ваш комментарий здесь',
+  },
 ];
