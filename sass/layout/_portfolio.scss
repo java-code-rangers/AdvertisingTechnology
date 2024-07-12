@@ -147,7 +147,7 @@
   display: grid;
   max-width: 1140px;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-auto-rows: 240px;
+  grid-auto-rows: minmax(0px, auto);
   grid-gap: 12px;
   justify-content: center;
   padding: 0;
@@ -169,7 +169,7 @@
 .gallery__image {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform var(--animation-duration) var(--timing-function);
 }
 
