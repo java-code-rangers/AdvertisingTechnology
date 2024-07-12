@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--main-title-color);
@@ -383,6 +387,27 @@ a {
 
 .policy-link {
   color: var(--accent-color);
+}
+
+.btn-anchor {
+  display: none;
+}
+@media screen and (min-width: 280px) {
+  .btn-anchor {
+    display: block;
+    position: fixed;
+    z-index: 3;
+    bottom: 60px;
+    right: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--accent-color-orange);
+    transition: background-color var(--transition-duration) var(--transition-timing);
+  }
+}
+
+.btn-anchor__icon {
+  fill: var(--team-card-bg-color);
 }
 
 .header-mobile {

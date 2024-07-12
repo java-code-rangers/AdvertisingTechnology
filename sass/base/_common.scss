@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-title-color);
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-title-color);
 }
 
 .no-scroll {
-    overflow: hidden;
+  overflow: hidden;
 }
