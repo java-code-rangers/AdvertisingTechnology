@@ -1,5 +1,6 @@
 var swiper = new Swiper('.swiper', {
-  loop: true,
+  loop: false,
+  rewind: true,
   pagination: {
     el: '.swiper-pagination',
   },
