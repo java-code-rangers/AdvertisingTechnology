@@ -1099,6 +1099,10 @@ a {
   }
 }
 
+.small {
+  padding: 25px;
+}
+
 .filters-list {
   display: flex;
   flex-wrap: wrap;
