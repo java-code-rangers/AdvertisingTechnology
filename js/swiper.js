@@ -11,22 +11,21 @@ var swiper = new Swiper('.swiper', {
     },
 
     320: {
-      slidesPerView: 2,
+      slidesPerView: 4,
       spaceBetween: 5,
-      slidesPerGroup: 1,
+      slidesPerGroup: 2,
     },
 
     768: {
-      slidesPerView: 4,
-      spaceBetween: 20,
-      slideSize: '80%',
+      slidesPerView: 6,
+      spaceBetween: 10,
       slidesPerGroup: 4,
     },
 
     1200: {
-      slidesPerView: 6,
+      slidesPerView: 8,
       spaceBetween: 20,
-      slidesPerGroup: 4,
+      slidesPerGroup: 8,
     },
   },
 
