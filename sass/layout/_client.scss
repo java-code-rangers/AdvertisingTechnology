@@ -91,13 +91,13 @@
 .swiper-button-next,
 .swiper-button-prev {
   z-index: 5;
-  margin-top: 25px;
+  margin-top: 10px;
   color: var(--accent-color-orange);
   @include tablet {
-    margin-top: 40px;
+    margin-top: 20px;
   }
   @include desktop {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 }
 
@@ -105,13 +105,13 @@
 .swiper-button-prev:after {
   font-size: 20px;
 
-  @include tablet {
-    font-size: 20px;
-  }
+  // @include tablet {
+  //   font-size: 20px;
+  // }
 
-  @include desktop {
-    font-size: 20px;
-  }
+  // @include desktop {
+  //   font-size: 20px;
+  // }
 }
 .small {
   padding: 25px;
