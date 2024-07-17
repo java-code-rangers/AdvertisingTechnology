@@ -1089,13 +1089,13 @@ a {
 @media screen and (min-width: 768px) {
   .swiper-button-next:after,
   .swiper-button-prev:after {
-    font-size: 35px;
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
   .swiper-button-next:after,
   .swiper-button-prev:after {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 

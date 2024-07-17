@@ -106,11 +106,11 @@
   font-size: 20px;
 
   @include tablet {
-    font-size: 35px;
+    font-size: 20px;
   }
 
   @include desktop {
-    font-size: 40px;
+    font-size: 20px;
   }
 }
 .small {
